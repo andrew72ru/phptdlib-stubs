@@ -19,7 +19,6 @@ class TDLibParameters {
     const IGNORE_FILE_NAMES = "ignore_file_names";
 
     /**
-     * @param string $name
      * @param int|string|bool $value
      * @throws \Exception
      */
