@@ -64,32 +64,4 @@ class JsonClient extends BaseJsonClient {
     public function getAuthorizationState(float $timeout = null):string
     {
     }
-
-//    public function acceptCall(int $call_id):string
-//    {
-//    }
-//    public function acceptTermsOfService(string $terms_of_service_id):string
-//    {
-//    }
-//    public function getAccountTtl():string
-//    {
-//    }
-//    public function getActiveLiveLocationMessages():string
-//    {
-//    }
-//    public function getActiveSessions():string
-//    {
-//    }
-//    public function getAllPassportElements():string
-//    {
-//    }
-//    public function getArchivedStickerSets(bool $is_masks = false, int $offset_sticker_set_id, float $limit):string
-//    {
-//    }
-//    public function getAttachedStickerSets(int $file_id):string
-//    {
-//    }
-//    public function searchPublicChats(string $query):string
-//    {
-//    }
 }
