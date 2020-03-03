@@ -23,7 +23,7 @@ class JsonClient extends BaseJsonClient {
     }
 
     /**
-     * @return array[string] - array of all tdlib responses since the previous getReceivedResponses call
+     * @return string[] - array of all tdlib responses since the previous getReceivedResponses call
      */
     public function getReceivedResponses():array
     {
