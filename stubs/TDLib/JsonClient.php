@@ -5,10 +5,10 @@ class JsonClient extends BaseJsonClient {
     private $defaultTimeout = 0.5;
 
     /**
-     * @param float|null $timeout
+     * @param int|null $timeout
      * @return string
      */
-    public function receive(float $timeout = null):string
+    public function receive(int $timeout = null):string
     {
     }
 
