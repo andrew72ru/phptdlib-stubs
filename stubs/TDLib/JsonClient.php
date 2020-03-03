@@ -31,10 +31,11 @@ class JsonClient extends BaseJsonClient {
 
     /**
      * @param string $key
+     * @param float|null $timeout
      * @return string
      * @throws \Exception
      */
-    public function checkDatabaseEncryptionKey(string $key):string
+    public function checkDatabaseEncryptionKey(string $key, float $timeout = null):string
     {
     }
 
