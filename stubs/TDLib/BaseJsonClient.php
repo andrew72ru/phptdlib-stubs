@@ -27,10 +27,10 @@ class BaseJsonClient {
     }
 
     /**
-     * @param float $timeout
+     * @param int $timeout
      * @return string
      */
-    public function receive(float $timeout):string
+    public function receive(int $timeout):string
     {
     }
 }
