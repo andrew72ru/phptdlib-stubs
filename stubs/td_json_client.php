@@ -16,6 +16,6 @@ function td_json_client_send(TDLib\BaseJsonClient $client, string $query)
 {
 }
 
-function td_json_client_receive(TDLib\BaseJsonClient $client, float $timeout)
+function td_json_client_receive(TDLib\BaseJsonClient $client, int $timeout)
 {
 }
