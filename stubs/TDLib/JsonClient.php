@@ -2,10 +2,6 @@
 namespace TDLib;
 
 class JsonClient extends BaseJsonClient {
-    /**
-     * @param int|null $timeout
-     * @return string
-     */
     public function receive(int $timeout = null):string
     {
     }
@@ -28,9 +24,6 @@ class JsonClient extends BaseJsonClient {
     }
 
     /**
-     * @param string $key
-     * @param float|null $timeout
-     * @return string
      * @throws \Exception
      */
     public function checkDatabaseEncryptionKey(string $key, float $timeout = null):string
@@ -38,9 +31,6 @@ class JsonClient extends BaseJsonClient {
     }
 
     /**
-     * @param string $key
-     * @param float|null $timeout
-     * @return string
      * @throws \Exception
      */
     public function setDatabaseEncryptionKey(string $key = '', float $timeout = null):string
@@ -48,9 +38,6 @@ class JsonClient extends BaseJsonClient {
     }
 
     /**
-     * @param \TDApi\TDLibParameters $parameters
-     * @param float|null $timeout
-     * @return string
      * @throws \Exception
      */
     public function setTdlibParameters(\TDApi\TDLibParameters $parameters, float $timeout = null):string
@@ -58,8 +45,6 @@ class JsonClient extends BaseJsonClient {
     }
 
     /**
-     * @param string $phone_number
-     * @return string
      * @throws \Exception
      */
     public function setAuthenticationPhoneNumber(string $phone_number, float $timeout = null):string
@@ -74,7 +59,6 @@ class JsonClient extends BaseJsonClient {
     }
 
     /**
-     * @return string
      * @throws \Exception
      */
     public function getAuthorizationState(float $timeout = null):string
