@@ -1,7 +1,8 @@
 <?php
 namespace TDApi;
 
-class LogConfiguration {
+class LogConfiguration
+{
     const LVL_FATAL_ERROR = 0;
     const LVL_ERROR = 1;
     const LVL_WARNING = 2;

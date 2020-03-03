@@ -1,8 +1,8 @@
 <?php
 namespace TDLib;
 
-class BaseJsonClient {
-
+class BaseJsonClient
+{
     public function __construct()
     {
     }
