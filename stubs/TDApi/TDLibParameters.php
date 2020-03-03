@@ -1,7 +1,8 @@
 <?php
 namespace TDApi;
 
-class TDLibParameters {
+class TDLibParameters
+{
     const USE_TEST_DC = "use_test_dc";
     const DATABASE_DIRECTORY = "database_directory";
     const FILES_DIRECTORY = "files_directory";

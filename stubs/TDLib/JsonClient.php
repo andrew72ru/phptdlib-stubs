@@ -1,7 +1,8 @@
 <?php
 namespace TDLib;
 
-class JsonClient extends BaseJsonClient {
+class JsonClient extends BaseJsonClient
+{
     public function receive(int $timeout = null):string
     {
     }
