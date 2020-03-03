@@ -3,7 +3,7 @@ namespace TDApi;
 
 class TDLibParameters {
     const USE_TEST_DC = "use_test_dc";
-    const DATABASE_DIRECOTRY = "database_directory";
+    const DATABASE_DIRECTORY = "database_directory";
     const FILES_DIRECTORY = "files_directory";
     const USE_FILE_DATABASE = "use_file_database";
     const USE_CHAT_INFO_DATABASE = "use_chat_info_database";
