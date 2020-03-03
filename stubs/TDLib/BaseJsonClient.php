@@ -11,25 +11,14 @@ class BaseJsonClient {
     {
     }
 
-    /**
-     * @param string $query
-     * @return string
-     */
     public function execute(string $query):string
     {
     }
 
-    /**
-     * @param string $query
-     */
     public function send(string $query)
     {
     }
 
-    /**
-     * @param int $timeout
-     * @return string
-     */
     public function receive(int $timeout):string
     {
     }
