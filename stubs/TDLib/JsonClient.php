@@ -14,11 +14,11 @@ class JsonClient extends BaseJsonClient {
 
     /**
      * @param string $query - json-encoded string request
-     * @param float|null $timeout
+     * @param int|null $timeout
      * @return string - json-encoded library response
      * @throws \Exception
      */
-    public function query(string $query, float $timeout = null):string
+    public function query(string $query, int $timeout = null):string
     {
     }
 
