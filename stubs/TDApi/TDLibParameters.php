@@ -27,7 +27,7 @@ class TDLibParameters {
     {
     }
 
-    public function __debugInfo()
+    public function __debugInfo(): array
     {
         return [];
     }
