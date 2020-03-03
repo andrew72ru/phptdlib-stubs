@@ -2,8 +2,6 @@
 namespace TDLib;
 
 class JsonClient extends BaseJsonClient {
-    private $defaultTimeout = 0.5;
-
     /**
      * @param int|null $timeout
      * @return string
