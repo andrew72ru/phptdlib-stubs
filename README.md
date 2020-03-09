@@ -1,3 +1,5 @@
 ```bash
-composer require phptdlib/phptdlib-stubs:@dev
+composer require --dev phptdlib/phptdlib-stubs:@dev
 ```
+
+[phptdlib](https://github.com/yaroslavche/phptdlib)
