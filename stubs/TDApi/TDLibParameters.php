@@ -1,5 +1,8 @@
 <?php
+
 namespace TDApi;
+
+use Exception;
 
 class TDLibParameters
 {
@@ -20,10 +23,12 @@ class TDLibParameters
     const IGNORE_FILE_NAMES = "ignore_file_names";
 
     /**
+     * @param string $name
      * @param int|string|bool $value
-     * @throws \Exception
+     * @return TDLibParameters
+     * @throws Exception
      */
-    public function setParameter(string $name, $value)
+    public function setParameter(string $name, $value): self
     {
     }
 

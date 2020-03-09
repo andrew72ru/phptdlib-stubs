@@ -1,4 +1,5 @@
 <?php
+
 namespace TDApi;
 
 class LogConfiguration
@@ -11,14 +12,24 @@ class LogConfiguration
     const LVL_VERBOSE_DEBUG = 5;
     const LVL_ALL = 1024;
 
-    public static function setLogFilePath(string $logFilePath):int
+    /**
+     * @param string $logFilePath
+     * @return int
+     */
+    public static function setLogFilePath(string $logFilePath): int
     {
     }
 
+    /**
+     * @param int $logMaxFileSize
+     */
     public static function setLogMaxFileSize(int $logMaxFileSize)
     {
     }
 
+    /**
+     * @param int $logVerbosityLevel
+     */
     public static function setLogVerbosityLevel(int $logVerbosityLevel)
     {
     }

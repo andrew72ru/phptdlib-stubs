@@ -1,54 +1,74 @@
 <?php
+
 namespace TDLib;
+
+use Exception;
+use TDApi\TDLibParameters;
 
 class JsonClient extends BaseJsonClient
 {
-    public function receive(int $timeout = null):string
+    /**
+     * @param int|null $timeout
+     * @return string
+     */
+    public function receive(int $timeout = null): string
     {
     }
 
     /**
      * @param string $query - json-encoded string request
-     * @param int|null $timeout
+     * @param float $timeout
      * @return string - json-encoded library response
-     * @throws \Exception
+     * @throws Exception
      */
-    public function query(string $query, int $timeout = null):string
+    public function query(string $query, float $timeout = null): string
     {
     }
 
     /**
-     * @return string[] - array of all tdlib responses since the previous getReceivedResponses call
+     * @return array<int, string> - array of all tdlib responses since the previous getReceivedResponses call
      */
-    public function getReceivedResponses():array
+    public function getReceivedResponses(): array
     {
     }
 
     /**
-     * @throws \Exception
+     * @param string $key
+     * @param float|null $timeout
+     * @return string
+     * @throws Exception
      */
-    public function checkDatabaseEncryptionKey(string $key, float $timeout = null):string
+    public function checkDatabaseEncryptionKey(string $key, float $timeout = null): string
     {
     }
 
     /**
-     * @throws \Exception
+     * @param string $key
+     * @param float|null $timeout
+     * @return string
+     * @throws Exception
      */
-    public function setDatabaseEncryptionKey(string $key = '', float $timeout = null):string
+    public function setDatabaseEncryptionKey(string $key = '', float $timeout = null): string
     {
     }
 
     /**
-     * @throws \Exception
+     * @param TDLibParameters $parameters
+     * @param float|null $timeout
+     * @return string
+     * @throws Exception
      */
-    public function setTdlibParameters(\TDApi\TDLibParameters $parameters, float $timeout = null):string
+    public function setTdlibParameters(TDLibParameters $parameters, float $timeout = null): string
     {
     }
 
     /**
-     * @throws \Exception
+     * @param string $phone_number
+     * @param float|null $timeout
+     * @return string
+     * @throws Exception
      */
-    public function setAuthenticationPhoneNumber(string $phone_number, float $timeout = null):string
+    public function setAuthenticationPhoneNumber(string $phone_number, float $timeout = null): string
     {
     }
 
@@ -60,9 +80,11 @@ class JsonClient extends BaseJsonClient
     }
 
     /**
-     * @throws \Exception
+     * @param float|null $timeout
+     * @return string
+     * @throws Exception
      */
-    public function getAuthorizationState(float $timeout = null):string
+    public function getAuthorizationState(float $timeout = null): string
     {
     }
 }
