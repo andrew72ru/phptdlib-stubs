@@ -1,5 +1,5 @@
 {
-  "name": "phptdlib/phptdlib-stubs",
+  "name": "andrew72ru/phptdlib-stubs",
   "description": "PHP tdlib Stubs for IDE",
   "type": "library",
   "license": "MIT",
@@ -10,7 +10,6 @@
     }
   ],
   "require": {
-    "php": "^7.0",
     "ext-tdlib": "*"
   }
 }
